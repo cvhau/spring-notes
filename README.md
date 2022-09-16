@@ -1,2 +1,1 @@
-# spring-notes
-Spring &amp; Spring Boot notes
+# Spring & Spring Boot notes
