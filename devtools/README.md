@@ -32,7 +32,7 @@ First, open the Registry by press ```Ctrl + Shift + A``` or click on <b><i>Help 
 
 Update all options below to specific values:
 - <i>compiler.document.save.enabled: true (checked)</i> <br>Specify whether project save in response to document changes is enabled.
-- <i>compiler.document.save.trigger.delay: 10</i> <br>Delay in milliseconds before triggering save in response to document changes.
+- <i>compiler.document.save.trigger.delay: 1500</i> <br>Delay in milliseconds before triggering save in response to document changes.
 - <i>compiler.automake.postpone.when.idle.less.than: 50</i> <br>If at the moment the auto-build is about to start the IDE is idle for less than specified milliseconds, the automatic build will be postponed in order not to interfere with the user's activity.
 - <i>compiler.automake.trigger.delay: 50</i> <br>Delay in milliseconds before triggering auto-make in response to file system events.
 
