@@ -96,7 +96,7 @@ The local source code directory is mounted into container at ```/var/app```. So,
 
 Exposes ports ```8080``` ```5005``` to localhost:
 - The application runs on port 8080.
-- Port 5005 make the debugger available the IntelliJ IDEA.
+- Port 5005 make the debugger available to the IntelliJ IDEA.
 
 <i>For more details, please visit docker's official [compose specification](https://docs.docker.com/compose/compose-file/)</i>
 
@@ -151,7 +151,7 @@ Here is sample:
 -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005
 ```
 
-You can notice that the TCP port ```5005``` we have exposed before is here.
+You maybe notice that the TCP port ```5005``` we have exposed before is here.
 
 #### 4.3 Add the command line arguments to _spring-boot-maven-plugin_
 Add the command line arguments that you have copied to ```jvmArguments``` configuration of __spring-boot-maven-plugin__ inside ```pom.xml``` file.
