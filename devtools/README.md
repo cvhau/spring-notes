@@ -48,3 +48,5 @@ Or:
 ```shell
 ./mvnw spring-boot:start
 ```
+
+<i>Whenever you save your source code, the Devtools will restart application automatically.</i>  
