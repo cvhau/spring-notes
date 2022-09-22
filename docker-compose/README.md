@@ -144,9 +144,8 @@ The default configuration should work. Here is a sample configuration:
 
 ![Image](./remote-jvm-debug-config.png)
 
-Copy all command line arguments content under section _Command line arguments for remote JVM_
+Copy all command line arguments content under _Command line arguments for remote JVM_ section:
 
-Here is sample:
 ```shell
 -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005
 ```
